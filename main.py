@@ -23,9 +23,9 @@ def get_available_leds():
 
 def main():
     #Spice connection
-    host = "192.168.9.201"
-    port = 1234
-    password = "5678"
+    host = "192.168.9.201"  #SpiceAPI Host
+    port = 1234             #SpiceAPI Port
+    password = "5678"       #SpiceAPI Password
     spice = Connection(host=host, port=port, password=password)
 
     #iCUE connection
